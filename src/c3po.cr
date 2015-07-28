@@ -1,5 +1,6 @@
 require "./c3po/*"
+require "http"
 
 module C3po
-  # TODO Put your code here
+  C3po::Auth.call("http://www.jaya-apps.com")
 end
